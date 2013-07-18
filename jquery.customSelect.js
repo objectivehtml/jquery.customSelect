@@ -67,7 +67,7 @@
                     customSelectSpan.attr('style', $select.attr('style'));
                 }
                 if (options.iconClass) {
-                    customSelectSpan.append('<span class="'+options.iconClass+'"></span>');
+                    customSelectSpan.append('<span class="'+options.iconClass+' '+getClass('Icon')+'"></span>');
                 }
 
                 options.init($select, customSelectSpan);

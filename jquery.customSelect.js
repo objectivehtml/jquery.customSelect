@@ -107,7 +107,8 @@
                             height:               selectBoxHeight,
                             fontSize:             customSelectSpan.css('font-size'),
                             left:                 position.left,
-                            top:                  position.top
+                            top:                  position.top,
+                            zIndex:               1
                         });
                     })
                     .on('change', function () {

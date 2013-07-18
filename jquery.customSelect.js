@@ -25,7 +25,7 @@
                     init: function($select) {},
                     changed: function() {}
             },
-            options = $.extend(true, defaults, options),
+            options = $.extend(defaults, options),
             prefix = options.customClass,
             changed = function ($select,customSelectSpan) {
                 var currentSelected = $select.find(':selected'),

@@ -23,7 +23,7 @@
                     mapStyle:    true,
                     iconClass:   false,
                     init: function($select) {},
-                    changed: function() {}
+                    changed: function($select, customSelectSpan) {}
             },
             options = $.extend(defaults, options),
             prefix = options.customClass,
